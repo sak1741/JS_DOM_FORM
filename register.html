@@ -1,0 +1,403 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #CB1212 ;  ">
+        <div class="container-fluid"style="background-color: red  ; padding: 12px;" >
+          <a class="navbar-brand" href="#" style="color: white;  font-size: 25px;" >MAQ Software  |</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; color: red;">
+              <li class="nav-item">
+                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="#">Link</a> -->
+              </li>
+              <li class="nav-item dropdown">
+                <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+                  <!-- Link -->
+                <!-- </a> -->
+                <!-- <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link disabled">Link</a> -->
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+              <a class="navbar-brand" href="#" style="color: white;  font-size: 20px; margin-left: 30px; " >Home</a>
+              <a class="navbar-brand" href="#" style="color: white;  font-size: 20px; " >Register</a>
+   
+            
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="container"style="border: 3px solid grey;border-radius: 2px; padding: 20px;" >
+        <form>
+        <div class="row" style="border-radius: 2px; padding: 10px; ">
+
+
+            <h6 style="font-weight:bold;">Register</h6>
+        </div>
+       
+       
+       
+        <div class="row">
+            <div class="col">
+                <div  style="border: 3px solid grey;border-radius: 2px;"><input type="text" class="form-control" id="n" placeholder="Full Name"></div>
+               </div>
+               
+          <div class="col">
+           <div style="border: 3px solid grey;border-radius: 2px;"><input type="text" class="form-control" id="email" placeholder="Email Address"></div>
+          </div>
+          
+        </div>
+        
+        
+        <div class="row">
+            <div class="col" style="margin-top: 20px;">
+        
+           
+             
+                <div class="p-1.3" style="border: 3px solid grey;border-radius: 2px;">
+                    <div class="form-check form-check-inline">
+                        <!-- <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> -->
+                        <label class="form-check-label" for="inlineCheckbox1" style="padding:2px; ">Gender</label>
+                      </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="option1" value="Male" name="size"  style="border: 2px solid #5fc2cd;">
+                        <label class="form-check-label" for="inlineCheckbox1" >Male</label>
+                      </input>
+                      </div>
+                
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="option2" value="Female"name="size"  style="border: 2px solid #5fc2cd;">
+                        <label class="form-check-label" for="inlineCheckbox1">Female</label>
+                      </input>
+                      </div>
+                
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="option3" value="Other"name="size"  style="border:2px solid #5fc2cd;">
+                       <label class="form-check-label" for="inlineCheckbox1">Other</label>
+                      </input>
+                      </div>
+
+                
+                </div>
+               </div>
+               
+          <div class="col">
+           <div class="p-1.2" style="border: 3px solid grey;border-radius: 2px; margin-top: 20px;"><input type="email" class="form-control" id="address" placeholder="Address"></div>
+          </div>
+          
+        </div>
+
+
+
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-3" >
+                <select class="form-select"  id="state" aria-label="Default select example" style="border: 3px solid grey;border-radius: 2px; ">
+                    <option selected>State</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Kerala">Kerala</option>
+                  </select>
+            </div>
+            <div class="col-3">
+                <div  style="border: 3px solid grey;border-radius: 2px;"><input type="email" class="form-control" id="pincode" placeholder="Pin Code"></div>
+            </div>
+            <div class="col-6">
+                <div  style="border: 3px solid grey;border-radius: 2px;"><input type="email" class="form-control" id="phonenum" placeholder="Phone Number"></div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row" style="margin-top: 30px;  ">
+            <div class="col-6" >
+
+                <select class="form-select" aria-label="Default select example" style="border: 3px solid grey;border-radius: 2px;">
+                    <option selected>Skills</option>
+                   
+                  </select>
+
+
+
+
+                <select class="form-select" multiple aria-label="multiple select example" id="hello" >
+                    <!-- <option selected>Open this select menu</option> -->
+                    <option value="ReactJs">React JS</option>
+                    <option value="Angular">Angular</option>
+                    <option value="C#">C#</option>
+                    <option value=".Net">.Net</option>
+                   
+                  </select>
+            </div>
+          
+            
+            <div class="col-6" style="border: 3px solid grey;border-radius: 2px;">
+                <p>Area of Interest</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="tech" value="FrontEnd" style="border: 2px solid #5fc2cd;">
+                    <label class="form-check-label" for="defaultCheck1">
+                        
+                      Front End
+                    </label>
+                  </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="tech" value="BackEnd" style="border: 2px solid #5fc2cd;">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Back End
+                    </label>
+                  </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="tech" value="FullStack" style="border: 2px solid #5fc2cd;">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Full Stack
+                    </label>
+                  </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="tech" value="ML" style="border: 2px solid #5fc2cd;">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Machine Learning
+                    </label>
+                  </div>
+
+            </div>
+        </div>
+
+       
+
+     <div class="row" style="margin-top: 30px;  " > <div class="mb-3" >
+        <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+        <textarea class="form-control" id="data" rows="3" style="border: 3px solid grey;border-radius: 2px;">Other Info</textarea>
+      </div>
+    </div>
+       
+
+    <div class="row" style="margin-bottom: 20px;">
+
+        <div class="col-3">
+            <button type="reset" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size:  1 rem;">
+      Reset
+    </button>
+        </div>
+        <div class="col-3">
+
+        </div>
+        <div class="col-3">
+
+        </div>
+        <div class="col-3" style="text-align: right;">
+            <button id = "submit" type="submit" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 1 rem;">
+      Submit
+    </button>
+ 
+        </div>
+     
+    </div>
+  </form>
+
+
+
+      </div>
+<div class="container" style="margin-top:30px;">
+      <div class="row" style="text-align: left; border: 2px solid grey; border-radius: 4px;">
+      
+        <h5>Summary</h5>
+        
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;">
+        <div class="col" style="text-align: right;">
+       <p>Full Name</p>
+        </div>
+        <div class="col" id="first">
+
+        </div>
+
+       
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;">
+        <div class="col" style="text-align: right;">
+  <p> Email  Address</p>
+        </div>
+        <div class="col" id="second">
+
+        </div>
+
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;" >
+   <div class="col"style="text-align: right;">
+    <p>Gender</p>
+        </div>
+        <div class="col" id="third">
+
+        </div>
+
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;">
+   <div class="col"style="text-align: right;">
+<p>Address</p>
+        </div>
+        <div class="col" id="fourth">
+
+        </div>
+
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;">
+   <div class="col"style="text-align: right;">
+    <p>State </p>
+        </div>
+        <div class="col" id="fifth">
+        
+        </div>
+
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;">
+   <div class="col"style="text-align: right;">
+<p>Pincode </p>
+        </div>
+        <div class="col" id="sixth">
+
+        </div>
+
+      </div>
+      <div class="row" style="text-align: left;  border: 2px solid grey; border-radius: 4px;" >
+   <div class="col"style="text-align: right;">
+<p>Phone Number</p>
+        </div>
+        <div class="col" id="seventh">
+
+        </div>
+
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;" >
+   <div class="col"style="text-align: right;">
+<p>Skills </p>
+        </div>
+        <div class="col" id="eighth">
+
+        </div>
+
+      </div>
+      <div class="row" style="text-align: left;  border: 2px solid grey; border-radius: 4px;" >
+   <div class="col"style="text-align: right;">
+<p>Area of Interest</p>
+        </div>
+        <div class="col" id="ninth">
+
+        </div>
+
+      </div>
+      <div class="row"  style="text-align: left;  border: 2px solid grey; border-radius: 4px;" >
+   <div class="col"style="text-align: right;">
+<p>Other Information</p>
+        </div>
+        <div class="col" id="tenth">
+
+        </div>
+
+      </div>
+     
+    </div> 
+  
+    
+    <div class="row" style="text-align: left; margin-top: 26px;">
+        <p style="font-size: small;">Made by EMP0XXXX - Copyright 2021 MAQ Software</p>
+    </div>
+    <script>
+
+
+document.getElementById("submit").addEventListener("click",(e)=>{
+    e.preventDefault()
+    
+    // console.log(e)
+    let a = n.value;
+    let b = email.value
+   
+    let d = address.value
+    let g = phonenum.value;
+    let f = pincode.value
+    let j = data.value
+    let s = state.value
+  //    console.log(email.value);
+  // x = email.value;
+  // document.getElementById('first').innerHTML = x
+  //   console.log(n.value);
+  //   console.log(address.value);
+  //  console.log(phonenum.value);
+  //  console.log(pincode.value)
+  //   console.log(male.value)
+  //   console.log(female.value)
+  //   console.log(state.value)
+    // console.log(data.value)
+    let c=[]
+    const radiobuttons = document.querySelectorAll('input[name="size"]');
+    for(const r of radiobuttons){
+      if(r.checked){
+        console.log(r.value);
+        c.push(r.value)
+
+      }
+    }
+    let i =[]
+    const technologies = document.querySelectorAll('input[id="tech"]');
+    for(const r of technologies){
+      if(r.checked){
+        console.log(r.value);
+        i.push(r.value)
+      }
+    }
+    const sb = document.querySelector('#hello');  
+    const selectValues = [].filter.call(sb.options, option => option.selected).map (option => option.text);  
+   
+    let h = selectValues
+
+first.innerHTML =`<p>${a}<p>`
+second.innerHTML =`<p>${b}<p>`
+third.innerHTML =`<p>${c}<p>`
+fourth.innerHTML =`<p>${d}<p>`
+fifth.innerHTML =`<p>${s}<p>`
+sixth.innerHTML =`<p>${f}<p>`
+seventh.innerHTML =`<p>${g}<p>`
+eighth.innerHTML =`<p>${h}<p>`
+ninth.innerHTML =`<p>${i}<p>`
+tenth.innerHTML =`<p>${j}<p>`
+
+
+    
+    
+    
+})
+
+
+
+
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
